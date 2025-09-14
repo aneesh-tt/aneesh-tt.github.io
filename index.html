@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Services Pro | IT Solutions & Support</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="logo.png" alt="Trusted Tech Logo" class="logo-img">
+            </div>
+            <div class="nav-links">
+                <a href="index.html" class="active">Home</a>
+                <a href="about.html">About</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact Us</a>
+            </div>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Make Your Tech <span class="highlight">Work For You</span>,<br>Not Against You!</h1>
+                <div class="tech-icons">
+                    <div class="tech-icon" data-tooltip="Tech Support">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="tech-icon" data-tooltip="Bill Savings">
+                        <i class="fas fa-file-invoice-dollar"></i>
+                    </div>
+                </div>
+                <div class="cta-group">
+                    <a href="#contact" class="btn btn-primary">Get Started</a>
+                    <a href="#services" class="btn btn-secondary">Our Services</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-shape shape-1"></div>
+                <div class="floating-shape shape-2"></div>
+                <div class="floating-shape shape-3"></div>
+                <div class="dashboard-mockup">
+                    <div class="browser-bar">
+                        <div class="browser-dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="dashboard-content">
+                        <!-- Add your SVG here -->
+                        <div class="dashboard-svg-container">
+                            <!-- Replace this with your actual SVG code -->
+                            <svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                <!-- Your SVG content will go here -->
+                                <rect width="100%" height="100%" fill="#f5f5f5" />
+                                <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle" fill="#666" font-family="Arial" font-size="14">
+                                    Your SVG will appear here
+                                </text>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card" data-service="tech-support">
+                    <div class="service-icon"><i class="fas fa-desktop"></i></div>
+                    <h3>Tech Support</h3>
+                    <p>This covers all your miscellaneous tech support - from fixing issues to answering questions to walking you through the best way to use your device, we take the time to empower you to use your tech well.</p>
+                    <div class="price">From $99<span>/mo</span></div>
+                    <a href="#contact" class="btn btn-outline service-action" data-tab="tech-support">Get Support</a>
+                </div>
+                <div class="service-card featured" data-service="bill-savings">
+                    <div class="service-icon"><i class="fas fa-money-bill-wave"></i></div>
+                    <h3>Telecom Bill Savings</h3>
+                    <p>We evaluate your current cable, internet, and phone bills and needs, then find you the best deal. In just 10 minutes of consulting, we handle all the hassle, and it pays for itself, AND you profit (average $2,060+)! See what you could save with a free consult today!</p>
+                    <div class="price">Average savings $2,060+</div>
+                    <a href="#contact" class="btn btn-outline service-action" data-tab="bill-savings">Start Saving</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Carousel -->
+    <section class="testimonials">
+        <div class="container">
+            <h2>What Our Clients Say</h2>
+            <div class="testimonial-carousel">
+                <button class="testimonial-nav-button testimonial-prev">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                
+                <div class="testimonial-track">
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card active">
+                            <div class="quote-icon">"</div>
+                            <p class="testimonial-text">Bill was great! He fixed my computer issues quickly and then helped me save money on my Comcast bill. He is knowledgeable, efficient, and personable. I have already recommended him to friends who have computer issues. Will definitely call him again should I have any computer questions or problems in the future.</p>
+                            <div class="testimonial-author">
+                                <div class="author-name">Dorothy Burns</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <div class="quote-icon">"</div>
+                            <p class="testimonial-text">Bill is knowledgeable across a breadth of tech stuff and helped me with wifi, cellphone, laptop, VPN, and sim cards. All in only one hour. TY Bill!! :)</p>
+                            <div class="testimonial-author">
+                                <div class="author-name">Chamblee Coalition</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <div class="quote-icon">"</div>
+                            <p class="testimonial-text">We have worked with Bill many times. He is very knowledgeable and helpful. He's fabulous tech support!</p>
+                            <div class="testimonial-author">
+                                <div class="author-name">Catherine M.</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <div class="quote-icon">"</div>
+                            <p class="testimonial-text">Prompt, knowledgeable, helpful and most of all - makes tech easier!</p>
+                            <div class="testimonial-author">
+                                <div class="author-name">Caroline L.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <button class="testimonial-nav-button testimonial-next">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+                
+                <div class="testimonial-nav">
+                    <button class="testimonial-dot active" data-slide="0"></button>
+                    <button class="testimonial-dot" data-slide="1"></button>
+                    <button class="testimonial-dot" data-slide="2"></button>
+                    <button class="testimonial-dot" data-slide="3"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>Get In Touch</h2>
+                    <p>Have questions or ready to get started? Contact us today for a free consultation.</p>
+                    <div class="contact-method">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <div class="contact-label">Call Us</div>
+                            <a href="tel:+1404-480-0281" class="phone-number">(404) 480-0281</a>
+                        </div>
+                    </div>
+                    <div class="contact-method">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <div class="contact-label">Email Us</div>
+                            <a href="mailto:hello@trustedtech.llc">hello@trustedtech.llc</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <h3>How can we help you?</h3>
+                    <div class="form-selector">
+                        <button class="form-selector-btn active" data-form="tech-support">Tech Support</button>
+                        <button class="form-selector-btn" data-form="bill-savings">Telecom Bill Savings</button>
+                    </div>
+
+                    <!-- Tech Support Form -->
+                    <form id="tech-support-form" class="service-form active" action="https://formbold.com/s/ozKKg" method="POST">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Describe your issue" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Schedule an Appointment</button>
+                    </form>
+
+                    <!-- Telecom Bill Savings Form -->
+                    <form id="bill-savings-form" class="service-form" action="https://formbold.com/s/3jKKx" method="POST" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group file-upload-wrapper">
+                            <label class="file-upload-label">
+                                <i class="fas fa-cloud-upload-alt"></i>
+                                <span>Choose a file</span>
+                                <input type="file" name="bill" class="file-input" id="bill-upload" required>
+                            </label>
+                            <div class="file-upload-info">
+                                <span class="file-name">No file chosen</span>
+                                <small>Upload your most recent telecom bill (PDF, JPG, or PNG)</small>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Anything else we should know?"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Schedule an Appointment</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <div class="logo">Trusted Tech</div>
+                    <p>Providing exceptional IT solutions and support to help businesses thrive in the digital age.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-services">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><a href="#services">Tech Support</a></li>
+                        <li><a href="#services">Telecom Bill Savings</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Trusted Tech. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const formButtons = document.querySelectorAll('.form-selector-btn');
+            const serviceForms = document.querySelectorAll('.service-form');
+            const serviceLinks = document.querySelectorAll('a.service-action');
+
+            function showForm(formName) {
+                // Hide all forms and deactivate all buttons
+                serviceForms.forEach(form => form.classList.remove('active'));
+                formButtons.forEach(btn => btn.classList.remove('active'));
+
+                // Show the selected form and activate the corresponding button
+                const targetForm = document.getElementById(formName + '-form');
+                const targetButton = document.querySelector(`.form-selector-btn[data-form='${formName}']`);
+                
+                if (targetForm) targetForm.classList.add('active');
+                if (targetButton) targetButton.classList.add('active');
+            }
+
+            // Set up clicks for the main form selector buttons
+            formButtons.forEach(button => {
+                button.addEventListener('click', () => showForm(button.getAttribute('data-form')));
+            });
+
+            // Set up clicks for the buttons in the 'Our Services' section
+            document.querySelector('a.service-action[data-tab="tech-support"]').addEventListener('click', function(e) {
+                e.preventDefault();
+                document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+                setTimeout(() => showForm('tech-support'), 300);
+            });
+
+            document.querySelector('a.service-action[data-tab="bill-savings"]').addEventListener('click', function(e) {
+                e.preventDefault();
+                document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+                setTimeout(() => showForm('bill-savings'), 300);
+            });
+
+            // Load the default form on page load
+            showForm('tech-support');
+
+            // Handle file upload display
+            const fileInput = document.getElementById('bill-upload');
+            const fileNameDisplay = document.querySelector('.file-name');
+            
+            if (fileInput && fileNameDisplay) {
+                fileInput.addEventListener('change', function() {
+                    if (this.files && this.files.length > 0) {
+                        fileNameDisplay.textContent = this.files[0].name;
+                    } else {
+                        fileNameDisplay.textContent = 'No file chosen';
+                    }
+                });
+            }
+        });
+    </script>
+    <script src="js/script.js"></script>
+</body>
+</html>
